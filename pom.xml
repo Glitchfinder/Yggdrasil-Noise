@@ -77,7 +77,7 @@
 	<dependency>
 		<groupId>org.spongepowered</groupId>
 		<artifactId>spongeapi</artifactId>
-		<version>LATEST</version>
+		<version>5.0.0</version>
 		<type>jar</type>
 		<scope>provided</scope>
 	</dependency>

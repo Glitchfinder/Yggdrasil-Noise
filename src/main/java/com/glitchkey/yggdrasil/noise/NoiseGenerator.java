@@ -60,7 +60,7 @@ public abstract class NoiseGenerator
 	{
 		String msg = "Custom noise is being requested of the : ";
 		msg += "NoiseGenerator class. Please cast to an appropriate ";
-		nsg += "noise type before trying to get data."
+		msg += "noise type before trying to get data.";
 		throw new UnsupportedOperationException(msg);
 	}
 
