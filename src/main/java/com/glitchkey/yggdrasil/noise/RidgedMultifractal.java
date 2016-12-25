@@ -34,7 +34,7 @@ public class RidgedMultifractal extends Perlin
 {
 	protected static double[] spectralWeights;
 
-	public static void CalculateSpectralWeights()
+	protected static void calculateSpectralWeights()
 	{
 		double h = 1D;
 		double frequency = 1D;
@@ -45,6 +45,8 @@ public class RidgedMultifractal extends Perlin
 			frequency *= 2D;
 		}
 	}
+
+	static { calculateSpectralWeights(); }
 
 	public static double noise(long seed, double x, double y, double z,
 		int octaves, double frequency, double amplitude)

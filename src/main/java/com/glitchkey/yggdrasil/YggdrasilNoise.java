@@ -29,9 +29,4 @@ import com.glitchkey.yggdrasil.noise.RidgedMultifractal;
 @Plugin(id = PomData_Noise.ARTIFACT_ID, name = PomData_Noise.NAME,
 	version = PomData_Noise.VERSION)
 
-public class YggdrasilNoise
-{
-	public YggdrasilNoise() {
-		RidgedMultifractal.CalculateSpectralWeights();
-	}
-}
+public class YggdrasilNoise {}
